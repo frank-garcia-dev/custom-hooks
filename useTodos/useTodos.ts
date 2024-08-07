@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import { TodoHookState, todoReducer } from '../08-useReducer/todoReducer';
+import { TodoHookState, todoReducer } from './todoReducer';
 
 export const useTodos = () => {
   const init = () => {
